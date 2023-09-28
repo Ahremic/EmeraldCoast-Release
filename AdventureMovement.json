@@ -1,0 +1,31 @@
+{
+   "Groups":[
+      {
+        "Name": "Config",
+		"DisplayName": "Camera Config",
+		"Description":["Set whether camera controls are inverted."],
+		"Elements":
+		[
+			{
+			"Name": "InvertStick",
+			"Description":[
+					"Sets whether or not the right stick's left/right camera rotation direction is inverted."
+			],
+			"DisplayName": "Invert Right Stick",
+			"Type":"bool",
+			"DefaultValue":false
+			},
+			{
+			"Name": "InvertTriggers",
+			"Description":[
+					"Sets whether or not the triggers' camera rotation controls are inverted."
+			],
+			"DisplayName": "Invert Triggers",
+			"Type":"bool",
+			"DefaultValue":true
+			},
+		],
+      },
+   ],
+   "IniFile":"Config.ini"
+}
