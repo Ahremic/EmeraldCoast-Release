@@ -8,4 +8,8 @@ add disk/bb3/+SonicClassic.arl
 add SAMovement.dll
 add Codes.hmm
 add disk/bb3/+shader_debug.ar.00
+add disk/bb/#ghz200.ar.00
+add disk/bb/#ghz200.arl
+add Saves/sonic.sav
+add Saves/sonic.sav.new
 add mod.ini
